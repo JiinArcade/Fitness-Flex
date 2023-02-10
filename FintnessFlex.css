@@ -26,10 +26,10 @@ h1 {
 
 .box {
   flex-grow: 1;
-  transition: all 500ms ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
-.box:hover .text-wrapper:hover {
+.box:hover .text-wrapper {
   display: block;
 }
 
@@ -87,7 +87,7 @@ h1 {
 }
 
 .text-item {
-  width: 70%;
+  width: 400px;
 }
 
 .text-btn {
